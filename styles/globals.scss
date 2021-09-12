@@ -2,6 +2,12 @@
 @import '~tailwindcss/components';
 @import '~tailwindcss/utilities';
 
+@layer base {
+  body {
+    @apply bg-blue-500;
+  }
+}
+
 // html,
 // body {
 //   padding: 0;

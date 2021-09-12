@@ -9,7 +9,7 @@ type Props = {
 const Layout = ({ children }: Props) => {
   return (
     <>
-      <Meta />
+      <Meta title='MERN | Todo List' />
       <Nav />
       <div>
         <main>{children}</main>
